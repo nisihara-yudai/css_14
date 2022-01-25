@@ -1,0 +1,274 @@
+/* row */
+.parent{
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.child{
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  background: #000;
+}
+
+/* row-reverse */
+.parent01{
+  color: #fff;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.child01{
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  background: #000;
+}
+
+/* column */
+.parent02{
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.child02{
+  width: 90px;
+  padding: 10px;
+  margin: 10px;
+  background: #000;
+}
+
+/* column-reverse */
+.parent03{
+  color: #fff;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.child03{
+  width: 90px;
+  padding: 10px;
+  margin: 10px;
+  background: #000;
+}
+
+/* flex-start */
+.parent04{
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.child04{
+  width: 80px;
+  padding: 10px;
+  margin: 10px;
+  background: #000;
+}
+
+/* flex-end */
+.parent05{
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.child05{
+  width: 80px;
+  padding: 10px;
+  margin: 10px;
+  background: #000;
+}
+
+/* center */
+.parent06{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.child06{
+  width: 80px;
+  padding: 10px;
+  margin: 10px;
+  background: #000;
+}
+
+/* space-between */
+.parent07{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.child07{
+  width: 80px;
+  padding: 10px;
+  margin: 10px;
+  background: #000;
+}
+
+/* space-around */
+.parent08{
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.child08{
+  width: 80px;
+  padding: 10px;
+  margin: 10px;
+  background: #000;
+}
+
+/* strech */
+.parent09{
+  color: #fff;
+  display: flex;
+  align-items: stretch;
+  background-color: blue;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.child09{
+  width: 80px;
+  padding: 10px;
+  margin: 10px;
+  background: #000;
+}
+
+/* flex-start */
+.parent10{
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+  background-color: aqua;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.child10{
+  width: 80px;
+  padding: 10px;
+  margin: 10px;
+  background: #000;
+}
+
+/* center */
+.parent11{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  background-color: aquamarine;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.child11{
+  width: 80px;
+  padding: 10px;
+  margin: 10px;
+  background: #000;
+}
+
+/* no-wrap */
+.parent12{
+  color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+.child12{
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  background: #000;
+}
+
+/* wrap */
+.parent13{
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.child13{
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  background: #000;
+}
+
+/* wrap-reverse */
+.parent14{
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-bottom: 20px;
+}
+
+.child14{
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  background: #000;
+}
+
+/* 問題 */
+.poster-between{
+  display: flex;
+  justify-content: space-between;
+}
+.poster{
+  width: 30%;
+  margin: 100px auto;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.breakfast{
+  width: 100%;
+  /* margin-bottom: 10px; */
+}
+
+.comment{
+  text-align: justify;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.title{
+  background: #008888;
+  font-size: 14px;
+  color: white;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 5px;
+  display: inline-block;
+}
+
+div .sub-title{
+  margin: 10px;
+}
+
+.introduce{
+  font-size: 18px;
+  margin-bottom: 30px;
+  word-break: break-all;
+}
+
+.day{
+  color: #008888;
+  padding-bottom: 15px;
+  text-align: right;
+}
+
+span{
+  color: #888888;
+  margin-left: 20px;
+}
