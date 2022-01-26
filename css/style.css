@@ -225,12 +225,27 @@
   display: flex;
   justify-content: space-between;
 }
-.poster{
+
+.poster01{
   width: 30%;
   margin: 100px auto;
   box-shadow: 2px 2px 5px gray;
+  background-color: red;
 }
 
+.poster02{
+  width: 30%;
+  margin: 100px auto;
+  box-shadow: 2px 2px 5px gray;
+  background-color: blue;
+}
+
+.poster03{
+  width: 30%;
+  margin: 100px auto;
+  box-shadow: 2px 2px 5px gray;
+  background-color: green;
+}
 .breakfast{
   width: 100%;
   /* margin-bottom: 10px; */
